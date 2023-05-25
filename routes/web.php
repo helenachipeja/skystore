@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [IndexController::class, 'index'])->name('index');
+Route::get('/cart', [IndexController::class, 'cart'])->name('cart');
+Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
+Route::get('/checkout', [IndexController::class, 'checkout'])->name('checkout');
+Route::get('/detail', [IndexController::class, 'detail'])->name('detail');
+Route::get('/shop', [IndexController::class, 'shop'])->name('shop');
