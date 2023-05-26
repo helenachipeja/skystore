@@ -61,7 +61,7 @@
                     <form>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" checked id="price-all">
-                            <label class="custom-control-label" for="price-all">All Price</label>
+                            <label class="custom-control-label" for="price-all">Todos Preços</label>
                             <span class="badge border font-weight-normal">1000</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -99,27 +99,27 @@
                     <form>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" checked id="color-all">
-                            <label class="custom-control-label" for="price-all">All Color</label>
+                            <label class="custom-control-label" for="price-all">Todas Cores</label>
                             <span class="badge border font-weight-normal">1000</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-1">
-                            <label class="custom-control-label" for="color-1">Black</label>
+                            <label class="custom-control-label" for="color-1">Preto</label>
                             <span class="badge border font-weight-normal">150</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-2">
-                            <label class="custom-control-label" for="color-2">White</label>
+                            <label class="custom-control-label" for="color-2">Branco</label>
                             <span class="badge border font-weight-normal">295</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-3">
-                            <label class="custom-control-label" for="color-3">Red</label>
+                            <label class="custom-control-label" for="color-3">Vermelho</label>
                             <span class="badge border font-weight-normal">246</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" id="color-4">
-                            <label class="custom-control-label" for="color-4">Blue</label>
+                            <label class="custom-control-label" for="color-4">Azul</label>
                             <span class="badge border font-weight-normal">145</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
@@ -137,7 +137,7 @@
                     <form>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <input type="checkbox" class="custom-control-input" checked id="size-all">
-                            <label class="custom-control-label" for="size-all">All Size</label>
+                            <label class="custom-control-label" for="size-all">Todos Tamanhos</label>
                             <span class="badge border font-weight-normal">1000</span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">

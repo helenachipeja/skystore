@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\PaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,12 @@ Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
 Route::get('/checkout', [IndexController::class, 'checkout'])->name('checkout');
 Route::get('/detail', [IndexController::class, 'detail'])->name('detail');
 Route::get('/shop', [IndexController::class, 'shop'])->name('shop');
+Route::post('/pay', [PaymentController::class, 'pay'])->name('payment');
+
+// Route::get('payment', 'PaymentController@index');
+// Route::post('charge', 'PaymentController@charge');
+Route::get('success', [PaymentController::class, 'success']);
+Route::get('error', [PaymentController::class, 'error']);
+// Route::get('s', [PaymentController::class, 'success']);
+// Route::get('success', [PaymentController::class, 'success']);
+

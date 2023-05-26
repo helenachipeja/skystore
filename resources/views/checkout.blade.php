@@ -58,11 +58,11 @@
                 <div class="bg-light p-30 mb-5">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <label>First Name</label>
+                            <label>Primeiro Nome</label>
                             <input class="form-control" type="text" placeholder="John">
                         </div>
                         <div class="col-md-6 form-group">
-                            <label>Last Name</label>
+                            <label>Ultimo Nome</label>
                             <input class="form-control" type="text" placeholder="Doe">
                         </div>
                         <div class="col-md-6 form-group">
@@ -82,30 +82,30 @@
                             <input class="form-control" type="text" placeholder="123 Street">
                         </div>
                         <div class="col-md-6 form-group">
-                            <label>Country</label>
+                            <label>Pais</label>
                             <select class="custom-select">
-                                <option selected>United States</option>
+                                <option selected>Moçambique</option>
                                 <option>Afghanistan</option>
                                 <option>Albania</option>
                                 <option>Algeria</option>
                             </select>
                         </div>
                         <div class="col-md-6 form-group">
-                            <label>City</label>
+                            <label>Cidade</label>
                             <input class="form-control" type="text" placeholder="New York">
                         </div>
                         <div class="col-md-6 form-group">
-                            <label>State</label>
+                            <label>Provincia</label>
                             <input class="form-control" type="text" placeholder="New York">
                         </div>
                         <div class="col-md-6 form-group">
-                            <label>ZIP Code</label>
+                            <label>Codigo Postal</label>
                             <input class="form-control" type="text" placeholder="123">
                         </div>
                         <div class="col-md-12 form-group">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" id="newaccount">
-                                <label class="custom-control-label" for="newaccount">Create an account</label>
+                                <label class="custom-control-label" for="newaccount">Criar Conta</label>
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
                 <div class="mb-5">
-                    <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Payment</span></h5>
+                    <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Pagamento</span></h5>
                     <div class="bg-light p-30">
                         <div class="form-group">
                             <div class="custom-control custom-radio">
@@ -225,7 +225,11 @@
                                 <label class="custom-control-label" for="banktransfer">Bank Transfer</label>
                             </div>
                         </div>
-                        <button class="btn btn-block btn-primary font-weight-bold py-3">Place Order</button>
+                        <form action="{{ route('payment') }}" method="post">
+                            @csrf
+                            <input type="hidden" name="amount" value="200">
+                            <button type="submit" class="btn btn-block btn-primary font-weight-bold py-3">pagar com Paypal</button>
+                        </form>
                     </div>
                 </div>
             </div>

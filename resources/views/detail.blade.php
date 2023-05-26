@@ -95,7 +95,7 @@
                         clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea
                         Nonumy</p>
                     <div class="d-flex mb-3">
-                        <strong class="text-dark mr-3">Sizes:</strong>
+                        <strong class="text-dark mr-3">Tamanhos:</strong>
                         <form>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="size-1" name="size">
@@ -120,27 +120,27 @@
                         </form>
                     </div>
                     <div class="d-flex mb-4">
-                        <strong class="text-dark mr-3">Colors:</strong>
+                        <strong class="text-dark mr-3">Cores:</strong>
                         <form>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="color-1" name="color">
-                                <label class="custom-control-label" for="color-1">Black</label>
+                                <label class="custom-control-label" for="color-1">Preto</label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="color-2" name="color">
-                                <label class="custom-control-label" for="color-2">White</label>
+                                <label class="custom-control-label" for="color-2">Branco</label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="color-3" name="color">
-                                <label class="custom-control-label" for="color-3">Red</label>
+                                <label class="custom-control-label" for="color-3">Vermelho</label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="color-4" name="color">
-                                <label class="custom-control-label" for="color-4">Blue</label>
+                                <label class="custom-control-label" for="color-4">Azul</label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input type="radio" class="custom-control-input" id="color-5" name="color">
-                                <label class="custom-control-label" for="color-5">Green</label>
+                                <label class="custom-control-label" for="color-5">Verde</label>
                             </div>
                         </form>
                     </div>
@@ -271,11 +271,11 @@
                                             <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <label for="name">Your Name *</label>
+                                            <label for="name">Teu Nome *</label>
                                             <input type="text" class="form-control" id="name">
                                         </div>
                                         <div class="form-group">
-                                            <label for="email">Your Email *</label>
+                                            <label for="email">Teu Email *</label>
                                             <input type="email" class="form-control" id="email">
                                         </div>
                                         <div class="form-group mb-0">

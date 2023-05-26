@@ -134,17 +134,17 @@
 
     <!-- Categories Start -->
     <div class="container-fluid pt-5">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Categories</span></h2>
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Categos</span></h2>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <a class="text-decoration-none" href="">
                     <div class="cat-item d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                            <img class="img-fluid" src="img/jeans.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Jeans</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -156,8 +156,8 @@
                             <img class="img-fluid" src="img/cat-2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Câmeras</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -169,8 +169,8 @@
                             <img class="img-fluid" src="img/cat-3.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Calçados</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -182,8 +182,8 @@
                             <img class="img-fluid" src="img/cat-4.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Cosmeticos</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -195,8 +195,8 @@
                             <img class="img-fluid" src="img/cat-4.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Roupa de Banho</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -208,8 +208,8 @@
                             <img class="img-fluid" src="img/cat-3.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Blazers</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -221,8 +221,8 @@
                             <img class="img-fluid" src="img/cat-2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Jacketas</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -234,8 +234,8 @@
                             <img class="img-fluid" src="img/cat-1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Roupa de Bebe</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -247,8 +247,8 @@
                             <img class="img-fluid" src="img/cat-2.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Roupa Esportiva</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -260,8 +260,8 @@
                             <img class="img-fluid" src="img/cat-1.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Roupa de Dormir</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -273,8 +273,8 @@
                             <img class="img-fluid" src="img/cat-4.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Bolsas</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -286,8 +286,8 @@
                             <img class="img-fluid" src="img/cat-3.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
-                            <h6>Category Name</h6>
-                            <small class="text-body">100 Products</small>
+                            <h6>Chapeu</h6>
+                            <small class="text-body">100 Productos</small>
                         </div>
                     </div>
                 </a>
@@ -530,8 +530,8 @@
                     <img class="img-fluid" src="img/offer-1.jpg" alt="">
                     <div class="offer-text">
                         <h6 class="text-white text-uppercase">Save 20%</h6>
-                        <h3 class="text-white mb-3">Special Offer</h3>
-                        <a href="" class="btn btn-primary">Shop Now</a>
+                        <h3 class="text-white mb-3">Ofertas Especiais</h3>
+                        <a href="" class="btn btn-primary">Compre Agora</a>
                     </div>
                 </div>
             </div>
@@ -540,8 +540,8 @@
                     <img class="img-fluid" src="img/offer-2.jpg" alt="">
                     <div class="offer-text">
                         <h6 class="text-white text-uppercase">Save 20%</h6>
-                        <h3 class="text-white mb-3">Special Offer</h3>
-                        <a href="" class="btn btn-primary">Shop Now</a>
+                        <h3 class="text-white mb-3">Ofertas Especiais</h3>
+                        <a href="" class="btn btn-primary">Compre Agora</a>
                     </div>
                 </div>
             </div>
