@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MultiShop - Online Shop Website Template</title>
+    <title>SkyGreen</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -40,9 +40,9 @@
         <div class="row px-xl-5">
             <div class="col-12">
                 <nav class="breadcrumb bg-light mb-30">
-                    <a class="breadcrumb-item text-dark" href="#">Home</a>
-                    <a class="breadcrumb-item text-dark" href="#">Shop</a>
-                    <span class="breadcrumb-item active">Shop List</span>
+                    <a class="breadcrumb-item text-dark" href="#">Inicio</a>
+                    <a class="breadcrumb-item text-dark" href="#">Loja</a>
+                    <span class="breadcrumb-item active">Lista de Produtos</span>
                 </nav>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <!-- Shop Sidebar Start -->
             <div class="col-lg-3 col-md-4">
                 <!-- Price Start -->
-                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by price</span></h5>
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filtrar por preço</span></h5>
                 <div class="bg-light p-4 mb-30">
                     <form>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -94,7 +94,7 @@
                 <!-- Price End -->
 
                 <!-- Color Start -->
-                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by color</span></h5>
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filtrar por Cor</span></h5>
                 <div class="bg-light p-4 mb-30">
                     <form>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -132,7 +132,7 @@
                 <!-- Color End -->
 
                 <!-- Size Start -->
-                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by size</span></h5>
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filtrar por tamanho</span></span></h5>
                 <div class="bg-light p-4 mb-30">
                     <form>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
@@ -183,15 +183,15 @@
                             </div>
                             <div class="ml-2">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sorting</button>
+                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Ordenação</button>
                                     <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#">Latest</a>
-                                        <a class="dropdown-item" href="#">Popularity</a>
-                                        <a class="dropdown-item" href="#">Best Rating</a>
+                                        <a class="dropdown-item" href="#">Recente</a>
+                                        <a class="dropdown-item" href="#">Popularidade</a>
+                                        <a class="dropdown-item" href="#">Melhor avaliação</a>
                                     </div>
                                 </div>
                                 <div class="btn-group ml-2">
-                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Showing</button>
+                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Mostrando</button>
                                     <div class="dropdown-menu dropdown-menu-right">
                                         <a class="dropdown-item" href="#">10</a>
                                         <a class="dropdown-item" href="#">20</a>
@@ -213,7 +213,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">Câmera CapturePro</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -240,7 +240,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">BlueWave Casual Blue Shirt</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -267,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">Luminaire IllumiTable Lamp</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -294,7 +294,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">SoleMasters ComfortFit</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -321,7 +321,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">SkyView Tech X1 Drone</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -348,7 +348,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">Relogio TimeMaster</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -375,7 +375,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">Blusa NoirChic Preta</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -402,7 +402,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">Creme Curology</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -429,7 +429,7 @@
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Product Name Goes Here</a>
+                                <a class="h6 text-decoration-none text-truncate" href="">Cadeira de Escritorio Azul</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
