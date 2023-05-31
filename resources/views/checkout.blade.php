@@ -320,52 +320,32 @@
             }
         }
         ,
-        // Order is created on the server and the order id is returned
-        createOrder() {
-          return fetch("/my-server/create-paypal-order", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            // use the "body" param to optionally pass additional order information
-            // like product skus and quantities
-            body: JSON.stringify({
-              cart: [
-                {
-                  sku: "YOUR_PRODUCT_STOCK_KEEPING_UNIT",
-                  quantity: "YOUR_PRODUCT_QUANTITY",
-                },
-              ],
-            }),
-          })
-          .then((response) => response.json())
-          .then((order) => order.id);
-        },
-        // Finalize the transaction on the server after payer approval
-        onApprove(data) {
-          return fetch("/my-server/capture-paypal-order", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              orderID: data.orderID
-            })
-          })
-          .then((response) => response.json())
-          .then((orderData) => {
-            // Successful capture! For dev/demo purposes:
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-            const transaction = orderData.purchase_units[0].payments.captures[0];
-            alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);
-            // When ready to go live, remove the alert and show a success message within this page. For example:
-            // const element = document.getElementById('paypal-button-container');
-            // element.innerHTML = '<h3>Thank you for your payment!</h3>';
-            // Or go to another URL:  window.location.href = 'thank_you.html';
-          });
-        }
-      }).render('#paypal-button-container');
-    </script>
+    createOrder: function(data, actions) {
+      // Lógica para criar o pedido do PayPal
+      return actions.order.create({
+        purchase_units: [
+          {
+            description: "Descrição do produto",
+            amount: {
+              currency_code: "USD",
+              value: "10.00" // Valor do produto
+            }
+          }
+        ]
+      });
+    },
+    onApprove: function(data, actions) {
+      // Lógica para capturar o pedido do PayPal após aprovação do comprador
+      return actions.order.capture().then(function(details) {
+        // Lógica de conclusão da transação
+        console.log('Capture result', details);
+        alert('Transação concluída com sucesso!');
+      });
+    }
+  }).render('#paypal-button-container');
+</script>
+
+
 </body>
 
 </html>

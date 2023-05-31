@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>SkyGreen</title>
+    <title>SkyStore</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -166,7 +166,7 @@
                 <a class="text-decoration-none" href="">
                     <div class="cat-item img-zoom d-flex align-items-center mb-4">
                         <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                            <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                            <img class="img-fluid" src="img/calcado.jpg" alt="">
                         </div>
                         <div class="flex-fill pl-3">
                             <h6>Calçados</h6>

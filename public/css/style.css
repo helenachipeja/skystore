@@ -9713,3 +9713,22 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+
+
+.container-fluid .logo {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+
+  color: #dc3545; /* Vermelho */
+  background-color: #FFFFFF; /* BRANCO */
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.container-fluid .logo:hover {
+  opacity: 0.8;
+  /* Adicione outros efeitos de hover se desejar */
+}
+
