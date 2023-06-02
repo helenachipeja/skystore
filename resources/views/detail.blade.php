@@ -157,7 +157,8 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Adicionar ao Carrinho</button>
+                        <a href="{{ asset('cart') }}" class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Adicionar ao Carrinho</a>
+
                     </div>
                     <div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Compartilhar no:</strong>

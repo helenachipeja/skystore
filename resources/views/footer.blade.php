@@ -3,8 +3,8 @@
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <h5 class="text-secondary text-uppercase mb-4">Entre em Contacto</h5>
                 <p class="mb-4">Estamos aqui para ajudar! Se você tiver alguma dúvida, feedback, sugestão ou precisar de assistência, não hesite em entrar em contato conosco.</p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>sky@gmail.com</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Av. Karl Marx, Maputo, Moçambique</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>skystore@gmail.com</p>
                 <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+258 345 67890</p>
             </div>
             <div class="col-lg-8 col-md-12">
@@ -56,9 +56,9 @@
         <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-secondary">
-                    &copy; <a class="text-primary" href="#">Domain</a>. Todos os direitos reservados. Projetado
+                    &copy; <a class="text-primary" href="#"></a>Todos os direitos reservados. Projetado
                     por
-                    <a class="text-primary" href="https://htmlcodex.com">SkyGreen</a>
+                    <a class="text-primary" href="https://htmlcodex.com">SkyStore</a>
                 </p>
             </div>
             <div class="col-md-6 px-xl-0 text-center text-md-right">

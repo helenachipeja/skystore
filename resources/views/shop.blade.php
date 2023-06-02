@@ -206,14 +206,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Câmera CapturePro</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">Câmera CapturePro</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -231,16 +231,16 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                         <div class="product-item bg-light mb-4">
                             <div class="product-img position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/cami.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">BlueWave Casual Blue Shirt</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">BlueWave Casual Blue Shirt</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -260,14 +260,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Luminaire IllumiTable Lamp</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">Luminaire IllumiTable Lamp</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -285,16 +285,17 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                         <div class="product-item bg-light mb-4">
                             <div class="product-img position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/sapas.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href="#" onclick="addToCart(event)"><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
+
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">SoleMasters ComfortFit</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">SoleMasters ComfortFit</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -314,14 +315,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">SkyView Tech X1 Drone</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">SkyView Tech X1 Drone</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -341,14 +342,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Relogio TimeMaster</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">Relogio TimeMaster</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -368,14 +369,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Blusa NoirChic Preta</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">Blusa NoirChic Preta</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -395,14 +396,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Creme Curology</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">Creme Curology</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -422,14 +423,14 @@
                             <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="img/product-9.jpg" alt="">
                                 <div class="product-action">
-                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="text-center py-4">
-                                <a class="h6 text-decoration-none text-truncate" href="">Cadeira de Escritorio Azul</a>
+                                <a class="h6 text-decoration-none text-truncate" href="{{ asset('detail') }}">Cadeira de Escritorio Azul</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                                 </div>
@@ -484,6 +485,37 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+
+    <script>
+         var cartCount = 0;
+        // Obtenha o elemento do botão de carrinho de compras
+const cartBtn = document.querySelector('.cart-btn');
+
+// Obtenha o elemento do contador de itens do carrinho
+const cartCounter = document.querySelector('#cart-counter');
+
+// Defina um contador inicial
+let itemCount = 0;
+
+// Adicione um ouvinte de evento de clique ao botão de carrinho de compras
+cartBtn.addEventListener('click', function(event) {
+  // Impedir o comportamento padrão de clique do link
+  event.preventDefault();
+
+  // Incrementar o contador de itens
+  itemCount++;
+
+  // Atualizar o texto do contador
+  cartCounter.textContent = itemCount;
+});
+
+function addToCart(event) {
+    event.preventDefault();
+    cartCount++;
+    document.getElementById('cartCount').innerText = cartCount;
+  }
+
+    </script>
 </body>
 
 </html>

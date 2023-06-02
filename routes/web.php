@@ -30,3 +30,8 @@ Route::get('error', [PaymentController::class, 'error']);
 // Route::get('s', [PaymentController::class, 'success']);
 // Route::get('success', [PaymentController::class, 'success']);
 
+Route::get('/favicon.ico', function () {
+    return redirect('/img/favicon.ico');
+});
+
+

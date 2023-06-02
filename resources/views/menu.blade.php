@@ -3,7 +3,7 @@
 
         <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div class="col-lg-4">
-            <a href="#" class="logo">
+            <a href="{{ url('/') }}" class="logo">
              <span class="h1 px-2">SkyStore</span>
             </a>
 
@@ -52,11 +52,11 @@
                 <div class="d-inline-flex align-items-center d-block d-lg-none">
                     <a href="" class="btn px-0 ml-2">
                         <i class="fas fa-heart text-dark"></i>
-                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">5</span>
+                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">0</span>
                     </a>
-                    <a href="" class="btn px-0 ml-2">
+                    <a href="" class="btn px-0 ml-2 ">
                         <i class="fas fa-shopping-cart text-dark"></i>
-                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">1</span>
+                        <span id="cart-counter" class="badge text-dark border border-dark rounded-circle cart-icon-count" style="padding-bottom: 2px;">0</span>
                     </a>
                 </div>
             </div>
@@ -108,27 +108,29 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="{{url('/')}}" class="nav-item nav-link active">Inicio</a>
-                            <a href="{{ asset('shop') }}" class="nav-item nav-link">Loja</a>
-                            <a href="{{ asset('detail') }}" class="nav-item nav-link">Detalhe</a>
+                            <a href="{{url('/')}}" class="nav-item nav-link {{ Request::path() ==='/' ? 'active' : '' }}">Inicio</a>
+                            <a href="{{ asset('shop') }}" class="nav-item nav-link {{ Request::path() ==='shop' ? 'active' : '' }}">Loja</a>
+                            <!-- <a href="{{ asset('detail') }}" class="nav-item nav-link {{ Request::path() ==='detail' ? 'active' : '' }}">Detalhe</a> -->
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Processo de Compra <i class="fa fa-angle-down mt-1"></i></a>
                                 <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                                    <a href="{{ asset('cart') }}" class="dropdown-item">Carrinho de Compras</a>
-                                    <a href="{{ asset('checkout') }}" class="dropdown-item">Finalizar a Compra</a>
+                                    <a href="{{ asset('cart') }}" class="dropdown-item {{ Request::path() ==='cart' ? 'active' : '' }}">Carrinho de Compras</a>
+                                    <a href="{{ asset('checkout') }}" class="dropdown-item {{ Request::path() ==='checkout' ? 'active' : '' }}">Finalizar a Compra</a>
                                 </div>
                             </div>
-                            <a href="{{ asset('contact') }}" class="nav-item nav-link">Contacto</a>
+                            <a href="{{ asset('contact') }}" class="nav-item nav-link {{ Request::path() ==='contact' ? 'active' : '' }}">Contacto</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                             <a href="" class="btn px-0">
                                 <i class="fas fa-heart text-primary"></i>
-                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">4</span>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
-                            <a href="" class="btn px-0 ml-3">
+                            <a href="" class="btn cart-btn px-0 ml-3">
                                 <i class="fas fa-shopping-cart text-primary"></i>
-                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">2</span>
+                                <span id="cart-counter" class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
                             </a>
+
+
                         </div>
                     </div>
                 </nav>
@@ -136,3 +138,49 @@
         </div>
     </div>
     <!-- Navbar End -->
+
+    <script>
+        var cartCount = 0;
+        // Obtenha o elemento do botão de carrinho de compras
+const cartBtn = document.querySelector('.cart-btn');
+
+// Obtenha o elemento do contador de itens do carrinho
+const cartCounter = document.querySelector('#cart-counter');
+
+// Defina um contador inicial
+let itemCount = 0;
+
+// Adicione um ouvinte de evento de clique ao botão de carrinho de compras
+cartBtn.addEventListener('click', function(event) {
+  // Impedir o comportamento padrão de clique do link
+  event.preventDefault();
+
+  // Incrementar o contador de itens
+  itemCount++;
+
+  // Atualizar o texto do contador
+  cartCounter.textContent = itemCount;
+});
+
+
+function addToCart(event) {
+    event.preventDefault();
+    cartCount++;
+    document.getElementById('cartCount').innerText = cartCount;
+  }
+
+    </script>
+
+<link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+

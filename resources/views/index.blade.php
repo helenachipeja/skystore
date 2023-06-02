@@ -50,7 +50,7 @@
                                 <div class="p-3" style="max-width: 700px;">
                                     <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Moda Masculina</h1>
                                     <p class="mx-md-5 px-5 animate__animated animate__bounceIn"> Descubra a sofisticação e a elegância que a moda masculina oferece.</p>
-                                    <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Compre Agora</a>
+                                    <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="{{ asset('shop') }}">Compre Agora</a>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                 <div class="p-3" style="max-width: 700px;">
                                     <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Moda Feminina</h1>
                                     <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Deixe sua personalidade brilhar através da moda feminina que oferecemos. </p>
-                                    <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Compre Agora</a>
+                                    <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="{{ asset('shop') }}">Compre Agora</a>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                                 <div class="p-3" style="max-width: 700px;">
                                     <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Moda Infantil</h1>
                                     <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Descubra um universo encantador de moda infantil que transformará seus pequenos em verdadeiros fashionistas.</p>
-                                    <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Compre Agora</a>
+                                    <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="{{ asset('shop') }}">Compre Agora</a>
                                 </div>
                             </div>
                         </div>
@@ -106,25 +106,25 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+                    <h5 class="font-weight-semi-bold m-0">Qualidade do Producto</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+                    <h5 class="font-weight-semi-bold m-0">Frete grátis</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+                    <h5 class="font-weight-semi-bold m-0">Devolução em 14 dias</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
                     <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+                    <h5 class="font-weight-semi-bold m-0">Suporte 24/7</h5>
                 </div>
             </div>
         </div>
@@ -313,7 +313,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Câmera CapturePro</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Câmera CapturePro</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -331,7 +331,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/cami.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -340,7 +340,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">BlueWave Casual Blue Shirt</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">BlueWave Casual Blue Shirt</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -367,7 +367,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Luminaire IllumiTable Lamp</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Luminaire IllumiTable Lamp</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -385,7 +385,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/sapas.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -394,7 +394,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">SoleMasters ComfortFit</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">SoleMasters ComfortFit</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -421,7 +421,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">SkyView Tech X1 Drone</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">SkyView Tech X1 Drone</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -448,7 +448,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Relogio TimeMaster</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Relogio TimeMaster</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -475,7 +475,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Blusa NoirChic Preta</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Blusa NoirChic Preta</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -502,7 +502,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Creme Curology</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Creme Curology</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -559,14 +559,14 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="img/dama.jpg" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square add-to-cart-btn" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Vestido BellaRosa</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Vestido BellaRosa</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -593,7 +593,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Fato PlayfulKids</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Fato PlayfulKids</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -620,7 +620,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">AquaChic Obsidiana Preto</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">AquaChic Obsidiana Preto</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -647,7 +647,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">EternaBride</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">EternaBride</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -674,7 +674,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Gentleman's Choice</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Gentleman's Choice</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -701,7 +701,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Fofura TinyTots</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Fofura TinyTots</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -728,7 +728,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Oculos Visionaire</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Oculos Visionaire</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -755,7 +755,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Fato EmpowerHer</a>
+                        <a class="h6 text-decoration-none text-truncate" href="{{ asset('shop') }}">Fato EmpowerHer</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>$123.00</h5><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -832,6 +832,25 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+
+    <!-- funcao carrinho de compra -->
+    <script>
+        // Adicionar produto ao carrinho
+    document.querySelector('.add-to-cart-btn').addEventListener('click', function(event) {
+    event.preventDefault(); // Impede que o link redirecione para outra página
+
+    // Aqui você pode adicionar a lógica para inserir o produto no carrinho
+    // Isso pode incluir o armazenamento dos detalhes do produto em uma estrutura de dados ou o envio de uma solicitação para o servidor
+
+    // Atualizar contador de itens no carrinho
+    var cartItemCount = parseInt(document.querySelector('.cart-item-count').textContent);
+    document.querySelector('.cart-item-count').textContent = cartItemCount + 1;
+
+    // Atualizar contador de itens no ícone do carrinho
+    var cartIconCount = parseInt(document.querySelector('.cart-icon-count').textContent);
+    document.querySelector('.cart-icon-count').textContent = cartIconCount + 1;
+});
+    </script>
 </body>
 
 </html>

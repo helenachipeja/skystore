@@ -61,12 +61,12 @@
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <label>Primeiro Nome</label>
-                            <input class="form-control" type="text" id="first" placeholder="John">
+                            <input class="form-control" type="text" id="first" placeholder="Helena">
                             <small class="text-danger first"></small>
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Ultimo Nome</label>
-                            <input class="form-control" type="text" id="last" placeholder="Doe">
+                            <input class="form-control" type="text" id="last" placeholder="Chipeja">
                             <small class="text-danger last"></small>
                         </div>
                         <div class="col-md-6 form-group">
@@ -76,19 +76,22 @@
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Numero</label>
-                            <input class="form-control" type="text" id="number" placeholder="+123 456 789">
+                            <input class="form-control" type="text" id="number" placeholder="+258 456 789">
                             <small class="text-danger number"></small>
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Endereço 1</label>
-                            <input class="form-control" type="text" id="ad1" placeholder="123 Street">
+                            <input class="form-control" type="text" id="ad1" placeholder="Ndhambi 2000">
+                            <small class="text-danger ad1"></small>
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Endereço 2</label>
                             <input class="form-control" type="text" id="ad2" placeholder="123 Street">
+                            <small class="text-danger ad2"></small>
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Pais</label>
+                            <small class="text-danger country"></small>
                             <select class="custom-select" id="country">
                                 <option selected>Moçambique</option>
                                 <option>Afghanistan</option>
@@ -98,16 +101,18 @@
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Cidade</label>
-                            <input class="form-control" type="text" id="city" placeholder="New York">
+                            <input class="form-control" type="text" id="city" placeholder="Maputo">
                             <small class="text-danger city"></small>
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Provincia</label>
-                            <input class="form-control" type="text" id="state" placeholder="New York">
+                            <input class="form-control" type="text" id="state" placeholder="Maputo">
+                            <small class="text-danger state"></small>
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Codigo Postal</label>
                             <input class="form-control" type="text" id="postal" placeholder="123">
+                            <small class="text-danger postal"></small>
                         </div>
                         <div class="col-md-12 form-group">
                             <div class="custom-control custom-checkbox">
@@ -162,11 +167,11 @@
                             </div>
                             <div class="col-md-6 form-group">
                                 <label>City</label>
-                                <input class="form-control" type="text" placeholder="New York">
+                                <input class="form-control" type="text" placeholder="Maputo">
                             </div>
                             <div class="col-md-6 form-group">
                                 <label>State</label>
-                                <input class="form-control" type="text" placeholder="New York">
+                                <input class="form-control" type="text" placeholder="Maputo">
                             </div>
                             <div class="col-md-6 form-group">
                                 <label>ZIP Code</label>
@@ -182,22 +187,25 @@
                     <div class="border-bottom">
                         <h6 class="mb-3">Productos</h6>
                         <div class="d-flex justify-content-between">
-                            <p>Camisa Preta</p>
+                        <img src="img/oculos.jpg" alt="Imagem da camisa preta" width="40" height="40">
+                            <p>Eterna</p>
                             <p>$150</p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p>Cinto</p>
+                        <img src="img/product-8.jpg" alt="Imagem da camisa preta" width="50" height="40">
+                            <p>Curology</p>
                             <p>$150</p>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <p>Bolsa Vermelha</p>
+                        <img src="img/calcado.jpg" alt="Imagem da camisa preta" width="50" height="40">
+                            <p>Bota preta</p>
                             <p>$150</p>
                         </div>
                     </div>
                     <div class="border-bottom pt-3 pb-2">
                         <div class="d-flex justify-content-between mb-3">
                             <h6>Total</h6>
-                            <h6>$150</h6>
+                            <h6>$450</h6>
                         </div>
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-medium">Envio</h6>
@@ -207,7 +215,7 @@
                     <div class="pt-2">
                         <div class="d-flex justify-content-between mt-2">
                             <h5>Total</h5>
-                            <h5>$160</h5>
+                            <h5>$460</h5>
                         </div>
                     </div>
                 </div>
@@ -266,6 +274,9 @@
     <script src="{{ asset('js/lib/easing/easing.min.js') }}"></script>
     <script src="{{ asset('js/lib/owlcarousel/owl.carousel.min.js') }}"></script>
 
+    <!-- Adicione o link para a biblioteca SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+
     <!-- Contact Javascript File -->
     <script src="{{ asset('js/mail/jqBootstrapValidation.min.js') }}"></script>
     <script src="{{ asset('js/mail/contact.js') }}"></script>
@@ -274,17 +285,21 @@
     <script src="{{ asset('js/main.js') }}"></script>
 
     <!-- paypal button script -->
-    <script src="https://www.paypal.com/sdk/js?client-id=AR3ZjjlRgpnxW_czrcwi4nSAAomCUgtChfvWDGTW68hz5CbVOYxosUrsvYmnCSW64unks5pc08_KJwNC&currency=USD"></script>
+    
+    <script src="https://www.paypal.com/sdk/js?client-id=AR3ZjjlRgpnxW_czrcwi4nSAAomCUgtChfvWDGTW68hz5CbVOYxosUrsvYmnCSW64unks5pc08_KJwNC&currency=USD&locale=pt_BR"></script>
     <script>
 
 
       paypal.Buttons({
+
         onClick(){
 
             var first = $('#first').val();
             var last = $('#last').val();
             var email = $('#email').val();
             var number = $('#number').val();
+            var number = $('#ad1').val();
+            var number = $('#country').val();
             var city = $('#city').val();
 
 
@@ -309,12 +324,22 @@
             }else {
                 $('.number').text("");
             }
+            if(number.length == 0){
+                $('.ad1').text("*preencha o campo");
+            }else {
+                $('.ad1').text("");
+            }
+            if(number.length == 0){
+                $('.country').text("*preencha o campo");
+            }else {
+                $('.country').text("");
+            }
             if(city.length == 0){
                 $('.city').text("*preencha o campo");
             }else {
                 $('.city').text("");
             }
-            if(first.length == 0 || last.length == 0 || email.length == 0 || number.length == 0 || city.length == 0)
+            if(first.length == 0 || last.length == 0 || email.length == 0 || number.length == 0 || ad1.length == 0 || country.length == 0 || city.length == 0)
             {
                 return false;
             }
@@ -328,7 +353,7 @@
             description: "Descrição do produto",
             amount: {
               currency_code: "USD",
-              value: "10.00" // Valor do produto
+              value: "460.00" // Valor do produto
             }
           }
         ]
@@ -338,8 +363,16 @@
       // Lógica para capturar o pedido do PayPal após aprovação do comprador
       return actions.order.capture().then(function(details) {
         // Lógica de conclusão da transação
-        console.log('Capture result', details);
-        alert('Transação concluída com sucesso!');
+        // console.log('Capture result', details);
+        // alert('Transação concluída com sucesso!');
+           // Personalize o alerta usando SweetAlert2
+           Swal.fire({
+          icon: 'success',
+          title: 'Transação concluída com sucesso!',
+          text: 'Seu pagamento foi processado com êxito.',
+          confirmButtonColor: '#4CAF50', // Cor verde
+          confirmButtonText: 'OK'
+        });
       });
     }
   }).render('#paypal-button-container');
